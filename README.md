@@ -1,1 +1,1 @@
-# MyPlugins
+# PlayerInfo
