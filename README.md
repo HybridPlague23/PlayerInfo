@@ -1,11 +1,11 @@
 ###############################################
-##
-##        Skript and Config created by:
-##               HybridPlague
-##
-##   If you use this skript on your server,
-##      please do not claim it as yours.
-##
+#
+#        Skript and Config created by:
+#               HybridPlague
+#
+#   If you use this skript on your server,
+#      please do not claim it as yours.
+#
 ###############################################
 
 
