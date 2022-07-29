@@ -1,0 +1,10 @@
+name: PlayerInfo
+main: me.hybridplague.playerinfo.PlayerInfo
+version: 2.0
+api-version: 1.13
+depend: [Vault, SuperVanish]
+author: HybridPlague
+
+commands:
+  playerinfo:
+  pi:

@@ -1,0 +1,647 @@
+Menus:
+  Main:
+    header: "&4Player Info &8⼁ &f%target%"
+    Items:
+      Health-Food:
+        slot: 28
+        name: "&aHealth and Food Levels"
+        type: apple
+        lore:
+        - ""
+        - "&7Health: &f%health%"
+        - "&7Food: &f%food%"
+      
+      Balance:
+        slot: 30
+        name: "&aBalance"
+        type: emerald
+        lore:
+        - ""
+        - "&7%balance% Krunas"
+        
+      PvP:
+        slot: 32
+        name: "&aPvP Statistics"
+        type: redstone
+        lore:
+        - ""
+        - "&7&oView PvP Statistics for %target%"
+        
+      Mob:
+        slot: 34
+        name: "&aMob Statistics"
+        type: netherite_sword
+        lore:
+        - ""
+        - "&7&oView Mob Statistics for %target%"
+
+  PvP:
+    header: "&4PvP Statistics &8⼁ &f%target%"
+    Items:
+      Kills:
+        slot: 11
+        name: "&aKills"
+        type: netherite_sword
+        lore:
+        - ""
+        - "&7%kills%"
+      
+      Deaths:
+        slot: 13
+        name: "&aDeaths"
+        type: skeleton_skull
+        lore:
+        - ""
+        - "&7%deaths%"
+      
+      KDR: 
+        slot: 15
+        name: "&aKill:Death Ratio"
+        type: paper
+        lore:
+        - ""
+        - "&7%kdr%"
+        
+  Mob:
+    header: "&4Mob Statistics &8⼁ &f%target%"
+    Items:
+      Passive:
+        slot: 11
+        name: "&aPassive Mobs"
+        type: wheat
+        lore:
+        - ""
+        - "&7&oView Passive Mob Statistics for %target%"
+      
+      Hostile:
+        slot: 15
+        name: "&aHostile Mobs"
+        type: rotten_flesh
+        lore:
+        - ""
+        - "&7&oView Hostile Mob Statistics for %target%"
+        
+  Passive:
+    header: "&4Passive Mob Statistics &8⼁ &f%target%"
+    Items:
+      Axolotl:
+        slot: 0
+        name: "&cAxolotl"
+        type: AXOLOTL_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Bat:
+        slot: 1
+        name: "&cBat"
+        type: BAT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Bee:
+        slot: 2
+        name: "&cBee"
+        type: BEE_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Cat:
+        slot: 3
+        name: "&cCat"
+        type: CAT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Chicken:
+        slot: 4
+        name: "&cChicken"
+        type: CHICKEN_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Cod:
+        slot: 5
+        name: "&cCod"
+        type: COD_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Cow:
+        slot: 6
+        name: "&cCow"
+        type: COW_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Dolphin:
+        slot: 7
+        name: "&cDolphin"
+        type: DOLPHIN_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Donkey:
+        slot: 8
+        name: "&cDonkey"
+        type: DONKEY_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Fox:
+        slot: 9
+        name: "&cFox"
+        type: FOX_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Glow_Squid:
+        slot: 10
+        name: "&cGlow Squid"
+        type: GLOW_SQUID_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Goat:
+        slot: 11
+        name: "&cGoat"
+        type: GOAT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Horse:
+        slot: 12
+        name: "&cHorse"
+        type: HORSE_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Iron_Golem:
+        slot: 13
+        name: "&cIron Golem"
+        type: IRON_BLOCK
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Llama:
+        slot: 14
+        name: "&cLlama"
+        type: LLAMA_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Mushroom_Cow:
+        slot: 15
+        name: "&cMushroom Cow"
+        type: MOOSHROOM_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Mule:
+        slot: 16
+        name: "&cMule"
+        type: MULE_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Ocelot:
+        slot: 17
+        name: "&cOcelot"
+        type: OCELOT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Panda:
+        slot: 18
+        name: "&cPanda"
+        type: PANDA_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Parrot:
+        slot: 19
+        name: "&cParrot"
+        type: PARROT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Pig:
+        slot: 20
+        name: "&cPig"
+        type: PIG_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Polar_Bear:
+        slot: 21
+        name: "&cPolar Bear"
+        type: POLAR_BEAR_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Pufferfish:
+        slot: 22
+        name: "&cPufferfish"
+        type: PUFFERFISH_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Rabbit:
+        slot: 23
+        name: "&cRabbit"
+        type: RABBIT_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Salmon:
+        slot: 24
+        name: "&cSalmon"
+        type: SALMON_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Sheep:
+        slot: 25
+        name: "&cSheep"
+        type: SHEEP_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Snowman:
+        slot: 26
+        name: "&cSnowman"
+        type: SNOW_BLOCK
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Squid:
+        slot: 27
+        name: "&cSquid"
+        type: SQUID_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Strider:
+        slot: 28
+        name: "&cStrider"
+        type: STRIDER_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Trader_Llama:
+        slot: 29
+        name: "&cTrader Llama"
+        type: TRADER_LLAMA_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Tropical_Fish:
+        slot: 30
+        name: "&cTropical Fish"
+        type: TROPICAL_FISH_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Turtle:
+        slot: 31
+        name: "&cTurtle"
+        type: TURTLE_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Villager:
+        slot: 32
+        name: "&cVillager"
+        type: VILLAGER_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Wandering_Trader:
+        slot: 33
+        name: "&cWandering Trader"
+        type: WANDERING_TRADER_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Wolf:
+        slot: 34
+        name: "&cWolf"
+        type: WOLF_SPAWN_EGG
+        lore: 
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+        
+  Hostile:
+    header: "&4Hostile Mob Statistics &8⼁ &f%target%"
+    Items:
+      Blaze:
+        slot: 0
+        name: "&cBlaze"
+        type: BLAZE_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Cave_Spider:
+        slot: 1
+        name: "&cCave Spider"
+        type: CAVE_SPIDER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Creeper:
+        slot: 2
+        name: "&cCreeper"
+        type: CREEPER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Drowned:
+        slot: 3
+        name: "&cDrowned"
+        type: DROWNED_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Elder_Guardian:
+        slot: 4
+        name: "&cElder Guardian"
+        type: ELDER_GUARDIAN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Ender_Dragon:
+        slot: 5
+        name: "&cEnder Dragon"
+        type: DRAGON_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Enderman:
+        slot: 6
+        name: "&cEnderman"
+        type: ENDERMAN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Endermite:
+        slot: 7
+        name: "&cEndermite"
+        type: ENDERMITE_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Evoker:
+        slot: 8
+        name: "&cEvoker"
+        type: EVOKER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Ghast:
+        slot: 9
+        name: "&cGhast"
+        type: GHAST_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Guardian:
+        slot: 10
+        name: "&cGuardian"
+        type: GUARDIAN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Hoglin:
+        slot: 11
+        name: "&cHoglin"
+        type: HOGLIN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Husk:
+        slot: 12
+        name: "&cHusk"
+        type: HUSK_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Magma_Cube:
+        slot: 13
+        name: "&cMagma Cube"
+        type: MAGMA_CUBE_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Phantom:
+        slot: 14
+        name: "&cPhantom"
+        type: PHANTOM_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Piglin:
+        slot: 15
+        name: "&cPiglin"
+        type: PIGLIN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Piglin_Brute:
+        slot: 16
+        name: "&cPiglin Brute"
+        type: PIGLIN_BRUTE_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Pillager:
+        slot: 17
+        name: "&cPillager"
+        type: PILLAGER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Ravager:
+        slot: 18
+        name: "&cRavager"
+        type: RAVAGER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Shulker:
+        slot: 19
+        name: "&cShulker"
+        type: SHULKER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Silverfish:
+        slot: 20
+        name: "&cSilverfish"
+        type: SILVERFISH_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Skeleton:
+        slot: 21
+        name: "&cSkeleton"
+        type: SKELETON_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Slime:
+        slot: 22
+        name: "&cSlime"
+        type: SLIME_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Spider:
+        slot: 23
+        name: "&cSpider"
+        type: SPIDER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Stray:
+        slot: 24
+        name: "&cStray"
+        type: STRAY_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Vex:
+        slot: 25
+        name: "&cVex"
+        type: VEX_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Vindicator:
+        slot: 26
+        name: "&cVindicator"
+        type: VINDICATOR_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Witch:
+        slot: 27
+        name: "&cWitch"
+        type: WITCH_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Wither:
+        slot: 28
+        name: "&cWither"
+        type: NETHER_STAR
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Wither_Skeleton:
+        slot: 29
+        name: "&cWither Skeleton"
+        type: WITHER_SKELETON_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Zoglin:
+        slot: 30
+        name: "&cZoglin"
+        type: ZOGLIN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Zombie:
+        slot: 31
+        name: "&cZombie"
+        type: ZOMBIE_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Zombified_Piglin:
+        slot: 32
+        name: "&cZombie Piglin"
+        type: ZOMBIFIED_PIGLIN_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      Zombie_Villager:
+        slot: 33
+        name: "&cZombie Villager"
+        type: ZOMBIE_VILLAGER_SPAWN_EGG
+        lore:
+        - ""
+        - "&7Kills: &f%kills%"
+        - "&7Killed By: &f%killedby%"
+      
+      
+      
+      
+      
